@@ -19,6 +19,7 @@ export default () => {
 
   return (
     <div className="container" style={{ marginTop: "10px" }}>
+      <h1>SALUT</h1>
       <SearchBar onSubmit={onSearchSubmit} />
       <ImageList images={images} />
     </div>
